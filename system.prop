@@ -1,2 +1,3 @@
 # Display
 ro.sf.lcd_density=480
+ro.opa.eligible_device=true

@@ -16,14 +16,11 @@
 
 $(call inherit-product, device/samsung/kccat6xx/full_kccat6xx.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
-
 # Inherit common CM phone.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := kccat6xx
-PRODUCT_NAME := cm_kccat6xx
+PRODUCT_NAME := lineage_kccat6xx
 
 # SH LANGUAGE SET
 PRODUCT_DEFAULT_LANGUAGE := en
